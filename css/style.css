@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 /*header start*/
 header{
     background-color: #ffffff;
@@ -8,6 +13,7 @@ header{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
+    padding: 10px 0 20px;
 }
 .logo {
     /*border:1px solid black;*/
@@ -40,3 +46,92 @@ header{
     font-weight: bold;
 }
 /*header end*/
+
+/*banner part start*/
+.banner{}
+.banner_bg{
+    background-image: url(../images/dream_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.home{
+    width: 25%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding: 30px 25px 25px;
+    background-color: rgba(60, 64, 76, .6);
+    /*border: 1px solid red;*/
+}
+.home h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.home p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+.home button{
+    width: 120px;
+    height: 35px;
+    background-color: rgba(60, 64, 76, .8);
+    background-color: #382E2D;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+/*banner part end*/
+
+/*service part start here*/
+.service{}
+.singleitem{
+    width: 28%;
+    float: left;
+    text-align: center;
+    margin: 0 31px;
+}
+.singleitem h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #382E2D;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.singleitem img{
+    width: 100%;
+}
+.singleitem p{
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.singleitem button{
+    background-color: #415C7B;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 30px;
+}
+/*service part end here*/
+/*footer part start here*/
+/*footer part end here*/
