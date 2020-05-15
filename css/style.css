@@ -10,6 +10,7 @@ header{
     
 }
 .wrapper{
+    /*border: 1px solid #C2C2C2;*/
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
@@ -134,4 +135,29 @@ header{
 }
 /*service part end here*/
 /*footer part start here*/
+.copyright{
+    text-align: center;
+}
+.copyright h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #382E2D;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.copyright p{
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.copyright img{
+    background-color: #415C7B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /*footer part end here*/
